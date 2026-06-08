@@ -1,20 +1,45 @@
-# EduLens — Course Content Simplification Agent
+# Course Content Simplification Agent
 
-> AI-powered educational content simplifier built with **IBM Granite** via **IBM Watsonx.ai**.
+## About
 
-Paste any textbook excerpt, lecture note, or research paragraph and get a personalised explanation — from Beginner-friendly to Expert-grade — in seconds.
-
----
+This project uses AI to simplify complex academic content and make it easier for students to understand.
 
 ## Features
 
-| Feature | Description |
-|---|---|
-| **Content Input** | Paste up to 8,000 characters of any educational material |
-| **Proficiency Levels** | Beginner · Intermediate · Advanced · Expert |
-| **Complexity Analysis** | Estimated reading difficulty, complexity descriptor |
-| **Key Concept Extraction** | Up to 6 domain concepts identified |
-| **Side-by-Side View** | Original vs Simplified content displayed together |
-| **Copy Button** | One-click copy for both panels |
+* Simplifies educational content
+* Supports Beginner, Intermediate, and Expert levels
+* Personalized explanations
+* Easy-to-use interface
 
----
+## Technologies
+
+* IBM Granite
+* IBM Watsonx.ai
+* IBM Cloud
+* Python
+* Flask
+* HTML, CSS, JavaScript
+
+## How It Works
+
+1. Enter academic content.
+2. Select a learning level.
+3. AI analyzes and simplifies the content.
+4. View the simplified explanation.
+
+## Run the Project
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+## Future Scope
+
+* Support multiple languages
+* Generate quizzes automatically
+
+## Author
+
+Course Content Simplification Agent Project
+
