@@ -1,0 +1,18 @@
+{
+  "name": "Course Content Simplification Agent",
+  "description": "AI-powered course content simplification using IBM Granite and Watsonx.ai",
+  "env": {
+    "WATSONX_API_KEY": {
+      "description": "IBM Watsonx.ai API Key"
+    },
+    "PROJECT_ID": {
+      "description": "IBM Watsonx.ai Project ID"
+    },
+    "MODEL_ID": {
+      "value": "IBM Model_id"
+    },
+    "API_URL": {
+      "value": "Endpoint_URL"
+    }
+  }
+}
