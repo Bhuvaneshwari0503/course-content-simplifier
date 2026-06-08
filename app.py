@@ -34,28 +34,6 @@ def _check_credentials():
         issues.append("ENDPOINT_URL")
 
     return issues
-# def _check_credentials():
-#     """Warn the developer if placeholder credentials are still in config.py."""
-#     issues = []
-#     if PROJECT_ID == "842db10c-beb5-4869-80f6-4ff4797e7989":
-#         issues.append("PROJECT_ID")
-#     if API_KEY == "Ew8R5yb89Flnh8-2ET3wDwSV4L4Dh4OjlblKdw-ZMUcY":
-#         issues.append("API_KEY")
-#     # if ENDPOINT_URL == "https://au-syd.ml.cloud.ibm.com":
-#     #     issues.append("ENDPOINT_URL")
-
-#     if issues:
-#         print("\n" + "=" * 60)
-#         print("  ⚠️  WARNING: IBM Credentials Not Configured")
-#         print("=" * 60)
-#         for field in issues:
-#             print(f"  • {field} is still set to its placeholder value.")
-#         print("\n  Open config.py and replace the placeholder strings")
-#         print("  with your real IBM Cloud / Watsonx.ai credentials.")
-#         print("=" * 60 + "\n")
-
-
-# _check_credentials()
 
 
 # ---------------------------------------------------------------------------
